@@ -12,18 +12,18 @@
         <p id="description">Kindly provide us with following details</p>
       </div>
   
-    <div class="survey-container">
-      <form id="survey-form">
+    <div class="form-container">
+      <form id="user-form" name="userForm" action="action.php" method="post">
        
             <div class="group-section-one">
                 <label for="name" id="name-label" >Name</label><br>
                 <input type="text" id="name" name="name" placeholder="Enter your Name" required><br>
             
                 <label for="number" id="number-label">Age</label><br>
-                <input type="number" id="number" min="13" max="110" placeholder="Age">
+                <input type="number" id="number"name="age" min="13" max="110" placeholder="Age">
 
                 <label for="number" id="weight-label">Weight</label><br>
-                <input type="number" id="weight" placeholder="Weight">
+                <input type="number" id="weight" name ="weight" placeholder="Weight">
                 
                 <label for="email" id="email-label">Email</label><br>
                 <input type="email" id="email" name="email"  placeholder="Enter your Email" required><br>

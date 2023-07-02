@@ -33,12 +33,12 @@ p{
 #title,#description{
     margin-bottom:5px;
 }
-.survey-container{
+.form-container{
     display:flex;
     justify-content:center;
     align-items:center;
 }
-#survey-form{
+#user-form{
  width:600px;
  margin:15px;
  padding:10px;
