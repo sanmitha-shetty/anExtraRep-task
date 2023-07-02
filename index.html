@@ -3,50 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Details</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="td-container">
         <h1 id="title">User Survey Details <Form></Form></h1>
-        <p id="description">Kindlly provide us with following details</p>
+        <p id="description">Kindly provide us with following details</p>
       </div>
   
     <div class="survey-container">
       <form id="survey-form">
        
-        <div class="group-section-one">
-          <label for="name" id="name-label" >Name</label><br>
-          <input type="text" id="name" name="name" placeholder="Enter your Name" required><br>
-      
-          <label for="number" id="number-label">Age</label><br>
-          <input type="number" id="number" min="13" max="110" placeholder="Age">
-          </div>
+            <div class="group-section-one">
+                <label for="name" id="name-label" >Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required><br>
+            
+                <label for="number" id="number-label">Age</label><br>
+                <input type="number" id="number" min="13" max="110" placeholder="Age">
 
-          <label for="number" id="number-label">Weight</label><br>
-          <input type="number" id="number" placeholder="Age">
-          </div>
-        
-          <label for="email" id="email-label">Email</label><br>
-          <input type="email" id="email" name="email"  placeholder="Enter your Email" required><br>
-     
-          <div class="pdf-container">
-            <label for="pdf" id="pdf-label"> Upload your Document</label><br>
-            <input type="file" name="pdf_file"
-                   class="form-control" accept=".pdf"
-                   title="Upload PDF"/>
-          </div>
-  
-          <div class="checkbox-container">
-            <p>Have you uploaded the document?</p>
-            <input type="checkbox" value="Yes" name="Yes">
-            <label>Yes, I have</label><br>
-            <input type="checkbox" value="No" name="No">
-            <label>No, I have not.</label><br>
-          </div>
+                <label for="number" id="weight-label">Weight</label><br>
+                <input type="number" id="weight" placeholder="Weight">
+                
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" id="email" name="email"  placeholder="Enter your Email" required><br>
+            
+                <div class="doc-section">
+                    <label for="pdf" id="pdf-label"> Upload Health Report</label><br>
+                    <input type="file" name="pdf_file"
+                        class="form-control" accept=".pdf"
+                        title="Upload PDF"/> <br>
+                </div>
 
-          <div class="button-container">
-            <button type="submit" id="submit">Submit</button>
-          </div>
+                <div class="button-container">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+
+            </div>
       </form>
   </div>
 </body>
