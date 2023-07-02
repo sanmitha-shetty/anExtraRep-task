@@ -14,7 +14,7 @@ body{
     color:var(--white);
     font-family: 'Roboto', sans-serif;
     min-height:max-content;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 p{
     margin-bottom:10px;
